@@ -1,11 +1,11 @@
-# 🎮 Python Mini Games — Hand Cricket & Luck Ladder
+# 🎮 Python Mini Games 
 
-This repository contains two fun Python-based mini games built with **pure Python** and **Tkinter**.  
-Both are playable directly from the terminal (Hand Cricket) or as a GUI (Luck Ladder).
+This repository contains three fun Python-based mini games built with **pure Python** and **Tkinter**.  
+Both are playable directly GUI after we ran the code on VScode
 
 ---
 
-## 🏏 Hand Cricket
+# 🏏 Hand Cricket
 
 A classic **Player vs Computer** cricket simulation game.
 
@@ -30,7 +30,7 @@ A classic **Player vs Computer** cricket simulation game.
 
 ---
 
-## 🎲 Luck Ladder
+# 🎲 Luck Ladder
 
 A creative **race-to-the-top** game built with **Tkinter GUI**, where luck and small challenges decide who reaches the goal first!
 
@@ -54,6 +54,44 @@ A creative **race-to-the-top** game built with **Tkinter GUI**, where luck and s
 - Computer makes automatic moves in single-player mode.
 - Includes **Reset**, **Challenges Info**, and **Path Info** buttons.
 
+---
+# 🔪 Hide & Kill
+
+A tense, multi-player deduction game where players must choose the best room to hide in before the Killer strikes!
+
+### 🎯 How It Works
+
+The game is played over **10 rounds** on a fixed, 8-room house layout.
+
+1. **Hiding Phase:** Each player simultaneously selects a room number (1 to 8) to hide in.
+
+2. **Killer Phase:** The game randomly determines a single **Safe Room** (the room the Killer overlooks).
+
+3. **Search Animation:** The Killer visibly moves through the other **7 rooms** one by one, checking them sequentially.
+
+4. Any player hiding in a room that the Killer searches is **caught**.
+
+5. The **Safe Room** is revealed in **Green** at the end of the search sequence.
+
+### ⚙️ Rules & Mechanics
+
+| Feature | Detail | 
+ | ----- | ----- | 
+| **Player Count** | Minimum **2** players, maximum **6** players. | 
+| **Scoring** | All players start with **10 points**. | 
+| **Loss Condition** | If your chosen room is searched (it turns **Red**), you lose **1 point**. | 
+| **Round Goal** | Choose the one room that the Killer does **not** search (the **Safe Room**). | 
+| **Layout** | The game uses a **fixed 8-room interior layout** to simulate a real house. | 
+| **Tension** | The Killer's path is **animated**, searching 7 rooms sequentially before revealing the result. | 
+
+### 🏆 Winning Conditions
+
+* The game consists of **10 total rounds**.
+
+* At the end of the 10th round, all final scores are tallied.
+
+* The player with the **highest remaining point total** is declared the winner!
+  
 ---
 
 ## 💡 Requirements
